@@ -1,0 +1,12 @@
+ui:
+  ssl: false
+  host: localhost
+  port: 4000
+  nameSpace: /
+
+
+rest:
+  ssl: true
+  host: card-file.ontu.edu.ua
+  port: 443
+  nameSpace: /server
