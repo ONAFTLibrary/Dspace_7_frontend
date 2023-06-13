@@ -225,7 +225,7 @@
   // "admin.registries.bitstream-formats.table.supportLevel.head": "Support Level",
   "admin.registries.bitstream-formats.table.supportLevel.head": "Рівні підтримки",
 
-  // "admin.registries.bitstream-formats.title": "DSpace Angular :: Bitstream Format Registry",
+  // "admin.registries.bitstream-formats.title": "DSpace Angular : Bitstream Format Registry",
   "admin.registries.bitstream-formats.title": "Реєстр формату файлу",
 
 
@@ -235,7 +235,7 @@
   "admin.registries.metadata.breadcrumbs": "Реєстр метаданих",
 
   // "admin.registries.metadata.description": "The metadata registry maintains a list of all metadata fields available in the repository. These fields may be divided amongst multiple schemas. However, DSpace requires the qualified Dublin Core schema.",
-  "admin.registries.metadata.description": "Реєстр метаданих підтримує список усіх полів метаданих, доступних у репозитарії. Ці поля можна розділити на кілька схем. Однак для ПЗ DSpace потрібна схема Dublin Core.",
+  "admin.registries.metadata.description": "Реєстр метаданих підтримує список усіх полів метаданих, доступних у репозиторії. Ці поля можна розділити на кілька схем. Однак для ПЗ DSpace потрібна схема Dublin Core.",
 
   // "admin.registries.metadata.form.create": "Create metadata schema",
   "admin.registries.metadata.form.create": "Створити схему метаданих",
@@ -267,7 +267,7 @@
   // "admin.registries.metadata.schemas.table.namespace": "Namespace",
   "admin.registries.metadata.schemas.table.namespace": "Простір",
 
-  // "admin.registries.metadata.title": "DSpace Angular :: Metadata Registry",
+  // "admin.registries.metadata.title": "DSpace Angular : Metadata Registry",
   "admin.registries.metadata.title": "Реєстр метаданих",
 
 
@@ -345,7 +345,7 @@
   // "admin.registries.schema.return": "Return",
   "admin.registries.schema.return": "Повернутись",
 
-  // "admin.registries.schema.title": "DSpace Angular :: Metadata Schema Registry",
+  // "admin.registries.schema.title": "DSpace Angular : Metadata Schema Registry",
   "admin.registries.schema.title": "Реєстр схеми метаданих",
 
 
@@ -363,8 +363,8 @@
   // TODO New key - Add a translation
   "admin.access-control.epeople.actions.stop-impersonating": "Зупинити видавати себе за користувача",
 
-  // "admin.access-control.epeople.title": "Репозитарій :: EPeople",
-  "admin.access-control.epeople.title": "Репозитарій :: Користувачі",
+  // "admin.access-control.epeople.title": "Репозиторій : EPeople",
+  "admin.access-control.epeople.title": "Репозиторій : Користувачі",
 
   // "admin.access-control.epeople.head": "EPeople",
   "admin.access-control.epeople.head": "Користувачі",
@@ -490,13 +490,13 @@
 
 
 
-  // "admin.access-control.groups.title": "Репозитарій :: Групи",
+  // "admin.access-control.groups.title": "Репозиторій : Групи",
   "admin.access-control.groups.title": "Групи",
 
-  // "admin.access-control.groups.title.singleGroup": "DSpace Angular :: Edit Group",
+  // "admin.access-control.groups.title.singleGroup": "DSpace Angular : Edit Group",
   "admin.access-control.groups.title.singleGroup": "Редагувати групу",
 
-  // "admin.access-control.groups.title.addGroup": "DSpace Angular :: New Group",
+  // "admin.access-control.groups.title.addGroup": "DSpace Angular : New Group",
   "admin.access-control.groups.title.addGroup": "Створити нову групу",
 
   // "admin.access-control.groups.head": "Groups",
@@ -1428,7 +1428,7 @@
   "communityList.breadcrumbs": "Перелік фондів",
 
   // "communityList.tabTitle": "DSpace - Community List",
-  "communityList.tabTitle": "Репозитарій - Фонди",
+  "communityList.tabTitle": "Репозиторій - Фонди",
 
   // "communityList.title": "List of Communities",
   "communityList.title": "Перелік фондів",
@@ -1628,7 +1628,7 @@
 
   // "comcol-role.edit.editor.description": "Editors are able to edit the metadata of incoming submissions, and then accept or reject them.",
   
-  "comcol-role.edit.editor.description": "Редактори мають повноваження редагувати метадані, приймати та відхиляти їх, зокрема, для документів, що заносяться у репозитарій.",
+  "comcol-role.edit.editor.description": "Редактори мають повноваження редагувати метадані, приймати та відхиляти їх, зокрема, для документів, що заносяться у репозиторій.",
 
 
   // "comcol-role.edit.finaleditor.name": "Final editors",
@@ -2021,7 +2021,7 @@
    "forgot-email.form.email.error.pattern": "Ви повинні ввести правильний email",
 
   // "forgot-email.form.email.hint": "This address will be verified and used as your login name.",
-  "forgot-email.form.email.hint": "Ми провіримо цей email. Використовуйте його для входу у репозитарій",
+  "forgot-email.form.email.hint": "Ми провіримо цей email. Використовуйте його для входу у репозиторій",
 
   // "forgot-email.form.submit": "Submit",
     "forgot-email.form.submit": "Надіслати",
@@ -2170,9 +2170,9 @@
   // "home.breadcrumbs": "Home",
     "home.breadcrumbs": "Головна",
 
-  // "home.title": "DSpace Angular :: Home",
+  // "home.title": "DSpace Angular : Home",
   // TODO Change univer name
-  "home.title": "Репозитарій ОНТУ :: Головна",
+  "home.title": "Репозиторій ОНТУ : Головна",
 
   // "home.top-level-communities.head": "Communities in DSpace",
   "home.top-level-communities.head": "Фонди",
@@ -3440,8 +3440,8 @@
   // "journal.search.results.head": "Journal Search Results",
   "journal.search.results.head": "Пошук у виданні",
 
-  // "journal.search.title": "DSpace Angular :: Journal Search",
-  "journal.search.title": "Репозитарій :: пошук видання",
+  // "journal.search.title": "DSpace Angular : Journal Search",
+  "journal.search.title": "Репозиторій : Пошук видання",
 
 
 
@@ -3593,7 +3593,7 @@
   "login.form.forgot-password": "Забули пароль?",
 
   // "login.form.header": "Please log in to DSpace",
-  "login.form.header": "Увійдіть у репозитарій",
+  "login.form.header": "Увійдіть у репозиторій",
 
   // "login.form.new-user": "New user? Click here to register.",
   "login.form.new-user": "Новий користувач? Зареєструйтесь.",
@@ -4572,7 +4572,7 @@
   "publication-relationships.search.results.head": "Результати пошуку публікацій",
 
   // "publication.search.title": "Publication Search",
-  "publication.search.title": "Репозиторій :: пошук публікацій",
+  "publication.search.title": "Репозиторій : пошук публікацій",
 
 
   //"media-viewer.next": "Next",
@@ -4784,10 +4784,10 @@
   //"repository.image.logo": "Repository logo",
   "repository.image.logo": "Логотип репозиторію",
 
-  //"repository.title.prefix": "DSpace Angular :: ",
+  //"repository.title.prefix": "DSpace Angular : ",
   "repository.title.prefix": "",
 
-  //"repository.title.prefixDSpace": "DSpace Angular ::",
+  //"repository.title.prefixDSpace": "DSpace Angular :",
   "repository.title.prefixDSpace": "",
 
   "repository.title.prefixbrowser.title.pag": "Пошук за критеріями*",
@@ -4974,7 +4974,7 @@
   // "search.switch-configuration.title": "Show",
   "search.switch-configuration.title": "Показати",
 
-  // "search.title": "DSpace Angular :: Search",
+  // "search.title": "DSpace Angular : Search",
   "search.title": "Пошук",
 
   // "search.breadcrumbs": "Search",
