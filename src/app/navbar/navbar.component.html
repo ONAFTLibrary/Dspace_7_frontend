@@ -11,7 +11,7 @@
                     <ng-container *ngFor="let section of (sections | async)">
                         <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
                     </ng-container>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown show">
                         <a href="javascript:void(0);" class="nav-link dropdown-toggle" routerLinkActive="active" id="publicInformation" (click)="toggleSection($event)" data-toggle="dropdown" aria-expanded="true">
                             {{ 'navbar.publication-information' | translate }}
                         </a>
