@@ -5449,7 +5449,7 @@
   "submission.general.cannot_submit": "У Вас немає повноважень щоб внести новий документ.",
 
   // "submission.general.deposit": "Deposit",
-  "submission.general.deposit": "Опубліковати",
+  "submission.general.deposit": "Опублікувати",
 
   // "submission.general.discard.confirm.cancel": "Cancel",
   "submission.general.discard.confirm.cancel": "Відмінити",
