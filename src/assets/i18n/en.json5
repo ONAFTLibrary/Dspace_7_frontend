@@ -5293,4 +5293,18 @@
   "admin.system-wide-alert.breadcrumbs": "System-wide Alerts",
 
   "admin.system-wide-alert.title": "System-wide Alerts",
+
+
+  "navbar.publication-information": "Publication information",
+
+  "navbar.regulation": "Regulation",
+
+  "navbar.copyright": "Copyright",
+
+  "navbar.for-external-authors": "Form for external authors",
+
+  "navbar.ethics": "Author ethics",
+
+  "navbar.glossary": "Glossary",
+
 }

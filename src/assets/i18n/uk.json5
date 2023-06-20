@@ -7310,4 +7310,23 @@
 
   //"admin.system-wide-alert.title": "System-wide Alerts",
   "admin.system-wide-alert.title": "Загальносистемні сповіщення",
+
+
+  //"navbar.publication-information": "Publication information",
+  "navbar.publication-information": "Користувачам",
+
+  //"navbar.regulation": "Regulation",
+  "navbar.regulation": "Положення",
+
+  //"navbar.copyright": "Copyright",
+  "navbar.copyright": "Авторський договір",
+
+  //"navbar.for-external-authors": "Form for external authors",
+  "navbar.for-external-authors": "Форма для зовнішніх авторів",
+
+  //"navbar.ethics": "Author ethics",
+  "navbar.ethics": "Авторська етика",
+
+  //"navbar.glossary": "Glossary",
+  "navbar.glossary": "Глосарій",
 }
