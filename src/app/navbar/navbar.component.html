@@ -12,7 +12,8 @@
                         <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
                     </ng-container>
                     <li class="nav-item dropdown show">
-                        <a href="javascript:void(0);" class="nav-link dropdown-toggle" routerLinkActive="active" id="publicInformation" (click)="toggleSection($event)" data-toggle="dropdown" aria-expanded="false">
+                        <!-- data-toggle="dropdown" aria-expanded="false" -->
+                        <a href="javascript:void(0);" class="nav-link dropdown-toggle" routerLinkActive="active" id="publicInformation" (click)="toggleSection($event)" >
                             {{ 'navbar.publication-information' | translate }}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="publicInformation">
