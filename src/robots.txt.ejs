@@ -3,7 +3,6 @@
 #Sitemap: <%= origin %>/sitemap_index.xml
 #Sitemap: <%= origin %>/sitemap_index.html
 
-Sitemap: https://card-file.ontu.edu.ua/sitemap_index.xml
 Sitemap: https://card-file.ontu.edu.ua/sitemap_index.html
 ##########################
 # Default Access Group
@@ -15,10 +14,10 @@ Disallow: /search
 Disallow: /admin/*
 Disallow: /processes
 Disallow: /submit
-Disallow: /workspaceitems
+#Disallow: /workspaceitems
 Disallow: /profile
-Disallow: /workflowitems
-Disallow: /server/*
+#Disallow: /workflowitems
+#Disallow: /server/*
 
 # Optionally uncomment the following line ONLY if sitemaps are working
 # and you have verified that your site is being indexed correctly.
@@ -45,6 +44,9 @@ Disallow: /server/*
 # advertising-related bots:
 User-agent: Mediapartners-Google*
 Disallow: /
+
+User-agent: Googlebot
+Allow: /
 
 # Crawlers that are kind enough to obey, but which we'd rather not have
 # unless they're feeding search engines.

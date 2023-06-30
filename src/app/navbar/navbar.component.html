@@ -12,18 +12,18 @@
                         <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
                     </ng-container>
                     <li class="nav-item dropdown show">
-                        <!-- data-toggle="dropdown" aria-expanded="false" -->
+                        <!-- data-toggle="dropdown" aria-expanded="false" >
                         <a href="javascript:void(0);" class="nav-link dropdown-toggle" routerLinkActive="active" id="publicInformation" (click)="toggleSection($event)" >
                             {{ 'navbar.publication-information' | translate }}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="publicInformation">
                             <a class="dropdown-item" href="https://drive.google.com/file/d/1ZBezO6YBAdiQtuHc11mX6kS3qbF4LFB9/view?usp=drive_link" target="_blank">{{ 'navbar.regulation' | translate }}</a>
-                            <!-- <li ><a href="#>{{ 'navbar.indexing-base' | translate }}</a></li> -->
+                            < <li ><a href="#>{{ 'navbar.indexing-base' | translate }}</a></li>
                             <a class="dropdown-item" href="https://drive.google.com/file/d/12564BXYLRLMwg8zl08rtdJO2IV_f4Zzb/view?usp=sharing" target="_blank">{{ 'navbar.copyright' | translate }}</a>
                             <a class="dropdown-item" href="https://forms.gle/dyGyf12mVkP3agUm7" target="_blank">{{ 'navbar.for-external-authors' | translate }}</a>
                             <a class="dropdown-item" href="https://drive.google.com/file/d/11VnnSD53mtkAmgHlX4ZfUBTrDMjVQ_8E/view?usp=sharing" target="_blank">{{ 'navbar.ethics' | translate }}</a>
                             <a class="dropdown-item" href="https://drive.google.com/file/d/1pxdTBGY3CuuXDaooN_2u6APCDN6_6IjE/view?usp=sharing" target="_blank">{{ 'navbar.glossary' | translate }}</a>
-                        </div>
+                        </div-->
                     </li>
                 </ul>
             </div>
