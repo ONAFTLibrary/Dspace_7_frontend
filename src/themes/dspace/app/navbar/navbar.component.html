@@ -6,7 +6,6 @@
     </a>
 
     <div id="collapsingNav" class="w-100 h-100">
-      <ds-dd-about class="navbar-collapsed nav-item d-flex align-items-center"></ds-dd-about>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 h-100">
         <li *ngIf="(isXsOrSm$ | async) && (isAuthenticated$ | async)">
             <ds-user-menu [inExpandableNavbar]="true"></ds-user-menu>
@@ -15,6 +14,7 @@
           <ng-container *ngComponentOutlet="(sectionMap$ | async).get(section.id)?.component; injector: (sectionMap$ | async).get(section.id)?.injector;"></ng-container>
         </ng-container>
       </ul>
+      <ds-dd-about class="navbar-collapsed nav-item d-flex align-items-center"></ds-dd-about>
     </div>
     <ds-search-navbar class="navbar-collapsed"></ds-search-navbar>
     <ds-lang-switch class="navbar-collapsed"></ds-lang-switch>

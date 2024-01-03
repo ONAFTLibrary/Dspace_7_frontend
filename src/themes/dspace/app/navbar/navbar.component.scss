@@ -44,6 +44,10 @@ nav.navbar {
   height: 80px;
 }
 
+#collapsingNav {
+  display: flex;
+}
+
 a.navbar-brand img {
   max-height: var(--ds-header-logo-height);
 }
